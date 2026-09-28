@@ -1,0 +1,2 @@
+[11-Nov-2025 16:53:34 UTC] PHP Fatal error:  Cannot redeclare Admin::bulk_itr1() in /home/fxlist/public_html/vibeapps/itr/application/controllers/Admin.php on line 405
+[11-Nov-2025 17:07:37 UTC] PHP Fatal error:  Cannot redeclare Admin::bulk_itr1() in /home/fxlist/public_html/vibeapps/itr/application/controllers/Admin.php on line 405

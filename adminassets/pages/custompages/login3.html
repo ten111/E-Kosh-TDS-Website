@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from admin.perfectuswebinsights.com/pages/custompages/login3.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jun 2019 09:19:40 GMT -->
+<head>
+	<meta charset="UTF-8">
+	<title>Login | Perfect Admin - Responsive HTML5 Admin Template</title>
+	<meta name="keywords" content="HTML5 Admin Template" />
+	<meta name="description" content="Perfect Admin - Responsive HTML5 Admin Template">
+	<meta name="author" content="perfectusinc.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Google Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap/bootstrap.min.css">
+	<!-- Page CSS -->
+	<link rel="stylesheet" href="../../assets/css/custompages/modal-login.css">
+	<!-- Fonts CSS -->
+	<link rel="stylesheet" href="../../assets/css/fonts/fonts-style.css">
+</head>
+
+<body class="bg-login">
+    <div class="wrapper">     
+		<!-- Page Content Starts-->
+		<div class="content-wrapper">
+			<div class="card shadow">
+				<h2>Modal Login Form</h2>
+				<button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+			</div>
+			<div id="id01" class="modal">
+				<form class="modal-content animate" action="https://admin.perfectuswebinsights.com/index.html">
+					<div class="imgcontainer">
+						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+						<img src="../../assets/images/img_avatar1.png" alt="Avatar" class="avatar">
+					</div>
+
+					<div class="container">
+						<label for="uname"><b>Username</b></label>
+						<input type="text" placeholder="Enter Username" name="uname" required>
+
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+
+						<button class="btn btn-primary mb-4" type="submit">Login</button>
+						<label>
+						<input type="checkbox" checked="checked" name="remember"> Remember me
+						</label>
+					</div>
+
+					<div class="container" style="background-color:#f1f1f1">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						<span class="psw"><a href="#">Forgot password?</a></span>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- Page Content Ends-->
+	</div>
+
+	<!-- Bootstrap JS -->
+	<script src="../../assets/js/jquery/jquery.min.js"></script>
+	<script src="../../assets/js/bootstrap/bootstrap.min.js"></script>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+</body>
+
+
+<!-- Mirrored from admin.perfectuswebinsights.com/pages/custompages/login3.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jun 2019 09:19:41 GMT -->
+</html>
